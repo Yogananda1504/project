@@ -118,7 +118,7 @@ const Contact = () => {
           <h2 className="text-2xl font-bold text-gray-900 mb-8">Our Location</h2>
           <div className="aspect-w-16 aspect-h-9">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61592.79799905751!2d78.79937159725658!3d14.478688495473244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb37784d1e5297f%3A0xdeff58bc1f492e57!2sKadapa%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1709667547979!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3863.138489433364!2d78.823454!3d14.476736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTTCsDI4JzM2LjMiTiA3OMKwNDknMjQuNCJF!5e0!3m2!1sen!2sin!4v1734687832049!5m2!1sen!2sin"
               width="100%"
               height="450"
               style={{ border: 0 }}

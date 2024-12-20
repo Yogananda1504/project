@@ -24,7 +24,7 @@ const founders = [
   {
     name: 'Dinesh Reddy Velpucherla',
     role: 'Director',
-    image: 'src/assets/image.png',
+    image: 'public/assets/image.png',
     bio: 'Visionary leader with extensive experience in digital advertising and business strategy.',
     education: 'MBA in Marketing',
     social: { linkedin: 'https://www.linkedin.com/in/dinesh-reddy-velpucherla-44148b194/', twitter: '#' }
@@ -72,7 +72,7 @@ const AboutUs = () => (
           muted
           className="absolute top-0 left-0 w-full h-full object-cover z-0"
         >
-          <source src="src/assets/2104648-hd_1280_720_30fps.mp4" type="video/mp4" />
+          <source src="public\assets\2104648-hd_1280_720_30fps.mp4" type="video/mp4" />
         </video>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-left overflow-y-hidden">
           <AnimatedTitle text="Divedge" />

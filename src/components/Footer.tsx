@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
               <div className="flex justify-center items-center">
               <img 
-                src="src\assets\WhatsApp_Image_2024-12-19_at_2.53.25_PM-removebg-preview__1_-removebg-preview.png" 
+                src="public/assets/WhatsApp_Image_2024-12-19_at_2.53.25_PM-removebg-preview__1_-removebg-preview.png" 
                 alt="Divedge Pvt. Ltd." 
                 className="w-50 h-50 object-contain"
               />

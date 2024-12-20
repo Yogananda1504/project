@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <NavLink to="/">
-              <img src="src\assets\WhatsApp_Image_2024-12-19_at_2.53.25_PM-removebg-preview (2).png" alt="Divedge Logo" className="h-24 w-auto" />
+              <img src="public/assets/WhatsApp_Image_2024-12-19_at_2.53.25_PM-removebg-preview (2).png" alt="Divedge Logo" className="h-24 w-auto" />
             </NavLink>
           </div>
           
