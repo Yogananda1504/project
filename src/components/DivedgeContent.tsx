@@ -44,7 +44,7 @@ const DivedgeContent: React.FC = () => {
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8 }}
+                    transition={{ duration: 0.4 }}
                     className="text-center mb-16"
                 >
                     <h2 className="text-5xl font-extrabold text-gray-900 mb-4 font-serif">

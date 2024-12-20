@@ -27,15 +27,15 @@ const founders = [
     role: 'Director',
     image: '/assets/image.png',
     bio: 'Visionary leader with extensive experience in digital advertising and business strategy.',
-    education: 'MBA in Marketing',
+    education: "Master's degree in Global Shipping Management",
     social: { linkedin: 'https://www.linkedin.com/in/dinesh-reddy-velpucherla-44148b194/' }
   },
   {
     name: 'Sateesh Kumar Sriramula',
-    role: 'Director',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?fit=crop&w=300&h=300',
-    bio: 'Technology innovator specializing in digital display solutions and market analysis.',
-    education: 'MS in Digital Media',
+    role: 'Co-Director',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXZ3IntbJ5izhGtL3CiU1sw8hDM4sh3Bxumw&s',
+    bio: 'Innovation Advisor',
+    education: '',
     social: { linkedin: '#', twitter: '#', instagram: '#' }
   }
 ];

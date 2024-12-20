@@ -13,14 +13,13 @@ const ContentTile: React.FC<ContentTileProps> = ({ title, description, index }) 
 
   return (
     <motion.div
-      initial={{ opacity: 0, x: xOffset, scale: 0.95 }}
-      whileInView={{ opacity: 1, x: 0, scale: 1 }}
-      exit={{ opacity: 0, x: -xOffset, scale: 0.95 }}
+      initial={{ opacity: 0, x: xOffset }}
+      whileInView={{ opacity: 1, x: 0 }}
       transition={{
-        type: "spring",
-        stiffness: 50,
-        damping: 20,
-        delay: index * 0.2,
+        type: "tween",          // Changed transition type to 'tween'
+        duration: 0.5,          // Adjusted duration for smoother animation
+        ease: "easeOut",        // Added easing function
+        // Removed delay for immediate animations
       }}
       viewport={{ amount: 0.3 }}
       className="bg-gradient-to-r from-indigo-50 to-purple-100 rounded-2xl shadow-md p-8 hover:shadow-2xl transform hover:scale-105 transition-all duration-300 font-sans"
