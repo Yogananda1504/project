@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Parallax } from 'react-scroll-parallax';
-import { Linkedin,  } from 'lucide-react';
+import { Linkedin } from 'lucide-react';
 
 import DivedgeContent from '../components/DivedgeContent';
 const fadeInUp = {
@@ -24,10 +24,10 @@ const founders = [
   {
     name: 'Dinesh Reddy Velpucherla',
     role: 'Director',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=300&h=300',
+    image: 'src/assets/image.png',
     bio: 'Visionary leader with extensive experience in digital advertising and business strategy.',
     education: 'MBA in Marketing',
-    social: { linkedin: 'https://www.linkedin.com/in/dinesh-reddy-velpucherla-44148b194/', twitter: '#',  }
+    social: { linkedin: 'https://www.linkedin.com/in/dinesh-reddy-velpucherla-44148b194/', twitter: '#' }
   },
   {
     name: 'Sateesh Kumar Sriramula',
@@ -42,7 +42,7 @@ const founders = [
 function AnimatedTitle({ text }: { text: string }) {
   return (
     <motion.h1
-      className="text-5xl text-white-300 max-w-3xl font-bold drop-shadow-xl bg-black bg-opacity-40 p-4 rounded-md"
+      className="text-5xl text-white-300 max-w-3xl font-bold drop-shadow-xl bg-black bg-opacity-40 p-4 rounded-md overflow-y-hidden"
       initial="hidden"
       animate="visible"
       variants={stagger}
@@ -58,13 +58,13 @@ function AnimatedTitle({ text }: { text: string }) {
 }
 
 const AboutUs = () => (
-  <div className="min-h-screen pt-16 text-center overflow-x-hidden">
+  <div className="min-h-screen pt-16 text-center overflow-x-hidden overflow-y-hidden">
     <Parallax translateY={[-20, 20]}>
       <motion.section
         variants={fadeInUp}
         initial="hidden"
         animate="visible"
-        className="text-white py-20 relative"
+        className="text-white py-20 relative overflow-y-hidden"
       >
         <video
           autoPlay
@@ -74,9 +74,9 @@ const AboutUs = () => (
         >
           <source src="src/assets/2104648-hd_1280_720_30fps.mp4" type="video/mp4" />
         </video>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-left">
-        <AnimatedTitle text="Divedge" />
-          <p className="text-5xl text-blue-900 max-w-3xl font-bold drop-shadow-xl bg-black bg-opacity-40 p-4 rounded-md">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-left overflow-y-hidden">
+          <AnimatedTitle text="Divedge" />
+          <p className="text-5xl text-blue-900 max-w-3xl font-bold drop-shadow-xl bg-black bg-opacity-40 p-4 rounded-md overflow-y-hidden">
             <motion.span
               className="inline-block animate-shimmer bg-gradient-to-r from-blue-100 via-blue-300 to-blue-100 bg-[length:200%_100%] text-transparent bg-clip-text"
               animate={{
@@ -88,9 +88,9 @@ const AboutUs = () => (
                 ease: "linear"
               }}
             >
-            Step into the Spotlight
-            <br />
-            No one can miss you now !!!
+              Step into the Spotlight
+              <br />
+              No one can miss you now !!!
             </motion.span>
           </p>
         </div>
@@ -101,11 +101,11 @@ const AboutUs = () => (
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
-      className="py-16 bg-white"
+      className="py-16 bg-white overflow-y-hidden"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-y-hidden">
         <h2 className="text-3xl font-bold text-gray-900 mb-8">Our Mission</h2>
-        <p className="text-lg text-gray-600 max-w-3xl text-center mx-auto">
+        <p className="text-lg text-gray-600 max-w-3xl text-center mx-auto overflow-y-hidden">
           At Divedge, our mission is to redefine outdoor advertising by transforming ordinary spaces into extraordinary platforms of communication. We strive to help businesses connect with their audiences in a dynamic, impactful, and meaningful way.
 
           By leveraging cutting-edge digital display technology and strategically curated locations, we aim to deliver advertising experiences that not only captivate but also inspire. Our focus is to create bold, innovative campaigns that enhance brand visibility, foster engagement, and drive measurable results for our clients.
@@ -122,9 +122,9 @@ const AboutUs = () => (
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
-      className="py-16 bg-gray-50"
+      className="py-16 bg-gray-50 overflow-y-hidden"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 overflow-y-hidden">
         <h2 className="text-3xl font-bold text-gray-900 mb-12">Our Leadership</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 overflow-x-hidden overflow-y-hidden">
           {founders.map(f => (
@@ -135,7 +135,7 @@ const AboutUs = () => (
               whileInView="visible"
               whileHover={{ y: -5, scale: 1.05 }}
               viewport={{ once: true }}
-              className="bg-white rounded-lg shadow-lg overflow-hidden max-w-full"
+              className="bg-white rounded-lg shadow-lg overflow-hidden max-w-full overflow-y-hidden"
             >
               <div className="p-6">
                 <img
@@ -154,7 +154,7 @@ const AboutUs = () => (
                     href={f.social.linkedin}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-blue-600"
+                    className="text-gray-400 hover:text-blue-600 overflow-y-hidden"
                   >
                     <Linkedin size={24} />
                   </a>
@@ -162,10 +162,8 @@ const AboutUs = () => (
                     href={f.social.twitter}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-blue-500"
+                    className="text-gray-400 hover:text-blue-500 overflow-y-hidden"
                   >
-                   
-                    
                   </a>
                 </div>
               </div>
