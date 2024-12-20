@@ -25,17 +25,17 @@ const founders = [
   {
     name: 'Dinesh Reddy Velpucherla',
     role: 'Director',
-    image: '/assets/image.png',
+    image: '/assets/dnv.jpeg',
     bio: 'Visionary leader with extensive experience in digital advertising and business strategy.',
-    education: "Master's degree in Global Shipping Management",
+    education: " Graduation in mechanical engineering, Post Graduation in shipping management, London.",
     social: { linkedin: 'https://www.linkedin.com/in/dinesh-reddy-velpucherla-44148b194/' }
   },
   {
     name: 'Sateesh Kumar Sriramula',
     role: 'Co-Director',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXZ3IntbJ5izhGtL3CiU1sw8hDM4sh3Bxumw&s',
+    image: '/assets/image.png',
     bio: 'Innovation Advisor',
-    education: '',
+    education: ' Graduation in mechanical engineering, Post Graduation in shipping management, London.',
     social: { linkedin: '#', twitter: '#', instagram: '#' }
   }
 ];
@@ -90,7 +90,7 @@ const AboutUs = () => (
             >
               Step into the Spotlight
               <br />
-              No one can miss you now !!!
+              No one can miss you now !
             </motion.span>
           </p>
         </div>
@@ -146,7 +146,7 @@ const AboutUs = () => (
                   alt={f.name}
                   className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-2 border-blue-500"
                 />
-                <h3 className="text-2xl font-bold text-gray-900 text-center mb-2 font-serif">
+                <h3 className="text-2xl font-bold text-gray-900 text-center mb-2 font-sans">
                   {f.name}
                 </h3>
                 <p className="text-blue-600 text-center mb-4 font-medium">{f.role}</p>

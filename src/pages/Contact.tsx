@@ -88,7 +88,7 @@ const Contact = () => {
                   <div>
                     <p className="font-medium text-gray-900">Address</p>
                     <p className="text-gray-600">
-                      Kadapa City,<br />
+                      7 Roads Circle,Kadapa City,<br />
                       Andhra Pradesh,<br />
                       India
                     </p>

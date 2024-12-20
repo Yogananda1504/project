@@ -29,7 +29,7 @@ const services = [
 
 const Concept = () => {
   return (
-    <div className="min-h-screen pt-16 font-serif">
+    <div className="min-h-screen pt-16 font-sans">
       {/* Hero Section */}
       <section
         style={{
