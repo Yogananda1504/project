@@ -24,10 +24,10 @@ const founders = [
   {
     name: 'Dinesh Reddy Velpucherla',
     role: 'Director',
-    image: 'public/assets/image.png',
+    image: '/assets/image.png',
     bio: 'Visionary leader with extensive experience in digital advertising and business strategy.',
     education: 'MBA in Marketing',
-    social: { linkedin: 'https://www.linkedin.com/in/dinesh-reddy-velpucherla-44148b194/', twitter: '#' }
+    social: { linkedin: 'https://www.linkedin.com/in/dinesh-reddy-velpucherla-44148b194/' }
   },
   {
     name: 'Sateesh Kumar Sriramula',
