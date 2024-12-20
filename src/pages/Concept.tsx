@@ -29,7 +29,7 @@ const services = [
 
 const Concept = () => {
   return (
-    <div className="min-h-screen pt-16">
+    <div className="min-h-screen pt-16 font-serif">
       {/* Hero Section */}
       <section
         style={{
@@ -42,10 +42,10 @@ const Concept = () => {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-black bg-opacity-50 backdrop-filter backdrop-blur-lg p-6 rounded-lg transform transition-transform duration-300 hover:scale-[1.02]">
-            <h1 className="text-4xl text-blue-100 md:text-5xl font-bold mb-6">
+            <h1 className="text-5xl md:text-6xl font-extrabold text-blue-100 mb-6 font-serif">
               The Divedge Concept
             </h1>
-            <p className="text-xl text-blue-100 max-w-3xl">
+            <p className="text-2xl text-blue-100 max-w-3xl">
               Dive deep into innovation, push beyond the edge of conventional advertising.
             </p>
           </div>
@@ -64,19 +64,19 @@ const Concept = () => {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-black bg-opacity-50 backdrop-filter backdrop-blur-lg p-8 rounded-lg transform transition-all duration-300 hover:scale-[1.01]">
-            <h2 className="text-3xl font-bold text-white mb-8">Our Philosophy</h2>
+            <h2 className="text-4xl font-bold text-white mb-8">Our Philosophy</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div className="transition-all duration-300 hover:translate-y-[-4px]">
-                <h3 className="text-xl font-semibold text-blue-100 mb-4">Dive</h3>
-                <p className="text-white">
+                <h3 className="text-2xl font-semibold text-blue-100 mb-4">Dive</h3>
+                <p className="text-white leading-relaxed">
                   Taking the plunge with confidence and conviction. We believe in fully committing to
                   every project, diving deep into understanding our clients' needs and delivering
                   exceptional results.
                 </p>
               </div>
               <div className="transition-all duration-300 hover:translate-y-[-4px]">
-                <h3 className="text-xl font-semibold text-blue-100 mb-4">Edge</h3>
-                <p className="text-white">
+                <h3 className="text-2xl font-semibold text-blue-100 mb-4">Edge</h3>
+                <p className="text-white leading-relaxed">
                   Pushing boundaries, stepping outside of comfort zones, and transcending limits. We
                   constantly innovate and challenge conventional advertising methods to create
                   impactful campaigns.
@@ -98,7 +98,7 @@ const Concept = () => {
         className="py-16 bg-gray-50"
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold mb-12 text-white bg-black bg-opacity-50 backdrop-filter backdrop-blur-lg p-4 rounded-lg inline-block">
+          <h2 className="text-4xl font-bold mb-12 text-white bg-black bg-opacity-50 backdrop-filter backdrop-blur-lg p-4 rounded-lg inline-block">
             Our Services
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -110,7 +110,7 @@ const Concept = () => {
                 <div className="mb-4 transform transition-transform duration-300 hover:scale-110">
                   {service.icon}
                 </div>
-                <h3 className="text-xl font-bold mb-2 text-white">{service.title}</h3>
+                <h3 className="text-2xl font-bold mb-2 text-white">{service.title}</h3>
                 <p className="text-gray-200">{service.description}</p>
               </div>
             ))}
@@ -130,8 +130,8 @@ const Concept = () => {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-black bg-opacity-50 backdrop-filter backdrop-blur-lg p-8 rounded-lg transform transition-all duration-300 hover:scale-[1.01]">
-            <h2 className="text-3xl font-bold text-white mb-8">Our Vision</h2>
-            <p className="text-lg text-white">
+            <h2 className="text-4xl font-bold text-white mb-8">Our Vision</h2>
+            <p className="text-xl text-white leading-relaxed">
               To establish ourselves as the leading outdoor digital advertising company in India,
               setting new standards in innovation, creativity, and customer satisfaction while
               nurturing long-term partnerships with our clients.
@@ -152,8 +152,8 @@ const Concept = () => {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="bg-black bg-opacity-50 backdrop-filter backdrop-blur-lg p-8 rounded-lg">
-            <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Advertising?</h2>
-            <p className="text-xl text-blue-100 mb-8">
+            <h2 className="text-4xl font-bold mb-4">Ready to Transform Your Advertising?</h2>
+            <p className="text-2xl text-blue-100 mb-8">
               Let's create impactful campaigns that resonate with your audience.
             </p>
             <a

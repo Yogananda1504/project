@@ -5,7 +5,7 @@ import { Mail, Phone, Instagram, MapPin } from 'lucide-react';
 
 const Contact = () => {
   return (
-    <div className="min-h-screen pt-16 overflow-x-hidden">
+    <div className="min-h-screen pt-16 overflow-x-hidden ">
       <motion.section
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

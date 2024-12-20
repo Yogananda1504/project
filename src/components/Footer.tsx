@@ -46,7 +46,7 @@ const Footer = () => {
               Location
             </h3>
             <p className="text-sm text-gray-300 leading-relaxed">
-              Kadapa City,<br />
+              7 Roads Circle, Kadapa City<br />
               Andhra Pradesh,<br />
               India
             </p>
