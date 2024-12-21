@@ -35,7 +35,7 @@ const founders = [
     role: 'Co-Director',
     image: '/assets/image.png',
     bio: 'Innovation Advisor',
-    education: ' Graduation in mechanical engineering, Post Graduation in shipping management, London.',
+    education: ' Graduation in mechanical engineering',
     social: { linkedin: '#', twitter: '#', instagram: '#' }
   }
 ];
